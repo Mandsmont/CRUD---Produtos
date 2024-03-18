@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/cadastro.css">
+    <style>
+        @keyframes fundoAnimado {
+            0% {
+                background-color: #97c6e662;
+            }
+
+            50% {
+                background-color: #1863b960;
+            }
+
+            100% {
+                background-color: #b7cbf72a;
+            }
+        }
+        body {
+            width: 100vw; /* 100% da largura da tela */
+            height: 100vh; /* 100% da altura da tela */
+            margin: 0; /* Remova margens padrão */
+            padding: 0; /* Remova preenchimento padrão */
+            animation: fundoAnimado 5s infinite alternate; /* Aplicando a animação */
+        }
+    </style>
+    
+</head>
+
+<body>
+    
+
+    <div class="PR-Produtos">
+        <h1>PR-PRODUTOS </h1>
+
+    </div>
+    <div class="título">
+        <h1> CONTROLE DE PRODUTOS </h1>
+    </div>
+    <div class="box-login">
+
+        <div class="título-login">
+            <h1> Cadastro</h1>
+        </div>
+        <div class="Corpo">
+            <label for="nome">Nome:</label>
+            <input id="nome" type="text" placeholder="Digite seu Nome">
+        </div>
+        <div class="Corpo">
+            <label for="CPF">CPF:</label>
+            <input id="CPF" type="number" placeholder="Digite seu CPF">
+        </div>
+        <div class="Corpo">
+            <label for="Telefone">Telefone:</label>
+            <input id="Telefone" type="number" placeholder="Digite seu Telefone">
+        </div>
+        <div class="Corpo">
+            <label for="email">E-mail:</label>
+            <input id="email" type="email" placeholder="Digite seu e-mail">
+        </div>
+
+        <div class="Corpo">
+            <label for="senha">Senha:</label>
+            <input id="senha" type="password" placeholder="Digite sua senha">
+        </div>
+        <div class="Corpo">
+            <label for="senha">Repita a Senha:</label>
+            <input id="senha" type="password" placeholder="Digite sua senha">
+        </div>
+
+        <button id="btn-cadastrar">Cadastrar</button>
+    </div>
+
+
+    <script src="./JS/cadastro.js"></script>
+</body>
+
+</html>

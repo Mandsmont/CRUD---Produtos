@@ -1,0 +1,48 @@
+.PR-Produtos{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 15px #050505;
+    font-style: initial;
+}
+.título {
+    text-align: center;
+    padding: 50px;
+    font-size: x-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 5px #7a90d8;
+    font-style: oblique;
+}
+
+.Corpo {
+    text-align: justify;
+    padding: 10px;
+    font-size: 30px;
+    color: black;
+    font-style: normal;
+}
+#btn-controle {
+    margin-top: 250px;
+    background-color: var(--cor-primaria);
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+    margin-left: center;
+}
+
+.col-sm-6 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.imagem{
+    width: 100%;
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da tela */
+    height: auto;
+    text-align: center;
+            }

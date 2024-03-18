@@ -1,0 +1,74 @@
+.PR-Produtos{
+    text-align: center;
+    padding: 10px;
+    font-size: xx-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 15px #110f7c;
+    font-style: initial;
+}
+.título {
+    text-align: center;
+    padding: 10px;
+    font-size: x-large;
+    color: var(--cor-primaria);
+    font-weight: bolder;
+    text-shadow: 0 0 5px #7a90d8;
+    font-style: oblique;
+}
+
+.box-login {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border: 3px solid #8b8787 ;
+    margin-top: 20px;
+    padding: 20px;}
+    
+    .título-login {
+        text-align: center; 
+         color: blue;
+         font-size: 25px;
+         margin-bottom: 15px;
+         font-weight: 600;}
+
+.Corpo {
+    margin-top: 10px;
+    width: 360px;
+    font-size: 30px;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+
+}
+
+input {
+    width: 100%;
+    padding: 7px;
+    border: 3px solid #ddd;
+    border-radius: 12px;
+    
+}
+#btn-cadastrar {
+    margin-top: 12px;
+    background-color: blue;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-weight: 600;
+}
+#btn-cadastrar:hover {
+    background-color: blue;
+    cursor: pointer;
+    text-align: center
+}
+.elemento {
+    width: 200px;
+    height: 200px;
+    animation: fundoAnimado 5s infinite; /* Aplicando a animação */
+}
+
+.col-sm-6 {
+    font-size: 30px;
+}
